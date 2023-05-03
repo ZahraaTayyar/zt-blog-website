@@ -6,10 +6,10 @@ import Settings from "./components/Settings";
 import TopBar from "./components/TopBar";
 import Write from "./components/Write";
 
-import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <Router>
       <TopBar />
