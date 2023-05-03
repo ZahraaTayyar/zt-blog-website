@@ -4,7 +4,7 @@ This is me having a go on my own on a React tutorial, after having done it as pa
 
 ---
 
-Check out the live [demo!](https://app.netlify.com/sites/zt-blog-website/overview) I added my own spin to it :)
+Check out the live [demo!](https://zt-blog-website.netlify.app/) I added my own spin to it :)
 
 ---
 
