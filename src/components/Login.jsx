@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 import "../styles/Login.css";
 
 function Login() {
   return (
     <div className="login">
-      <span className="loginTitle"></span>
+      <span className="loginTitle">Login</span>
+
       <form action="" className="loginForm">
         <label htmlFor="email">Email</label>
         <input
@@ -24,9 +25,10 @@ function Login() {
 
         <button className="loginButton">Login</button>
       </form>
-      <button className="loginRegisterButton"></button>
+
+      <button className="loginRegisterButton">Register</button>
     </div>
   );
 }
 
-export default Login
+export default Login;
