@@ -9,7 +9,7 @@ import Write from "./components/Write";
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
 
 function App() {
-  const user = false;
+  const user = true;
   return (
     <Router>
       <TopBar />
