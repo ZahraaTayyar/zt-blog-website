@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Register.css";
 
 function Register() {
@@ -34,7 +35,9 @@ function Register() {
         <button className="registerButton">Register</button>
       </form>
 
-      <button className="registerLoginButton">Login</button>
+      <button className="registerLoginButton">
+        <Link to="/login" className="link">Login</Link>
+      </button>
     </div>
   );
 }
