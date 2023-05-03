@@ -1,7 +1,6 @@
-import React from 'react';
-import Post from './Post';
-import "./Posts.css";
-
+import React from "react";
+import Post from "./Post";
+import "../styles/Posts.css";
 
 function Posts() {
   return (
@@ -17,4 +16,4 @@ function Posts() {
   );
 }
 
-export default Posts
+export default Posts;
