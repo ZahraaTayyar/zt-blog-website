@@ -5,7 +5,7 @@ function Post() {
   return (
     <div className="post">
       <img
-        src="https://images.unsplash.com/photo-1513010072333-792fcc02ee7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+        src="https://images.unsplash.com/photo-1486944859394-ed1c44255713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
         alt="Landscape of mountains and hills with lots of purple flowers"
         className="postImg"
       />
@@ -22,7 +22,8 @@ function Post() {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
         quas possimus ad placeat, voluptatem a reprehenderit tempore minus quia
         ullam in labore nemo. Tempora, velit dolor? Rerum veniam laudantium
-        consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium quas possimus ad placeat, voluptatem a reprehenderit tempore
+        consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Accusantium quas possimus ad placeat, voluptatem a reprehenderit tempore
         minus quia ullam in labore nemo. Tempora, velit dolor? Rerum veniam
         laudantium consectetur. Lorem ipsum, dolor sit amet consectetur
         adipisicing elit. Accusantium quas possimus ad placeat, voluptatem a
