@@ -6,6 +6,7 @@ function Register() {
   return (
     <div className="register">
       <span className="registerTitle">Register</span>
+      <p>Please register to write a blog post</p>
 
       <form action="" className="registerForm">
         <label htmlFor="username">Username</label>
@@ -33,11 +34,13 @@ function Register() {
         />
 
         <button className="registerButton">Register</button>
+        
+        <button className="registerLoginButton">
+          <Link to="/login" className="link">
+            Login
+          </Link>
+        </button>
       </form>
-
-      <button className="registerLoginButton">
-        <Link to="/login" className="link">Login</Link>
-      </button>
     </div>
   );
 }

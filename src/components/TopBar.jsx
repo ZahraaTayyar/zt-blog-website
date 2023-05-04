@@ -6,6 +6,7 @@ function TopBar() {
   let user = false;
   return (
     <div className="top">
+
       <div className="topLeft">
         <i className="topIcon fa-brands fa-square-facebook"></i>
         <i className="topIcon fa-brands fa-square-twitter"></i>
@@ -41,11 +42,13 @@ function TopBar() {
 
       <div className="topRight">
         {user ? (
-          <img
-            className="topImg"
-            src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527__340.png"
-            alt="user silhouette"
-          />
+          <Link to="/settings" className="link">
+            <img
+              className="topImg"
+              src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527__340.png"
+              alt="user silhouette"
+            />
+          </Link>
         ) : (
           <ul className="topList">
             <li className="topListItem">

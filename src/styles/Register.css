@@ -13,10 +13,16 @@
     font-size: 50px;
 }
 
+.register p {
+    margin-top: 10px;
+}
+
 .registerForm {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    width: 300px;
+    /* border: solid grey 1px; */
 }
 
 .registerForm label {
@@ -28,6 +34,12 @@
     background-color: white;
     border: none;
     box-shadow: 2px 2px 15px grey;
+    border-radius: 5px;
+}
+
+.registerInput:focus, .registerInput:hover {
+    background-color: rgb(238, 235, 244);
+    outline: none;
 }
 
 .registerButton {
@@ -41,9 +53,13 @@
     box-shadow: 5px 5px 15px grey;
 }
 
+.registerButton:hover {
+    background-color: rgb(2, 114, 114);
+}
+
 .registerLoginButton {
     position: absolute;
-    top: 60px;
+    top: 90px;
     right: 20px;
     background-color: lightcoral;
     cursor: pointer;
@@ -51,4 +67,14 @@
     padding: 10px;
     color: white;
     border-radius: 10px;
+}
+
+.registerLoginButton:hover {
+    background-color: rgb(243, 107, 107);
+}
+
+@media only screen and (max-width: 800px) {
+  .registerLoginButton {
+    top: 300px;
+  }
 }

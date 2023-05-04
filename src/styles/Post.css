@@ -1,6 +1,19 @@
 .post {
     width: 385px;
     margin: 0px 25px 40px 25px;
+    padding: 20px
+}
+
+@media only screen and (max-width: 400px) {
+  .post {
+    width: 90%; 
+  }
+}
+
+.post:hover {
+    background-color: rgb(242, 240, 240);
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px grey;
 }
 
 .postImg {
@@ -9,6 +22,7 @@
     object-fit: cover;
     border-radius: 7px;
     box-shadow: 4px 4px 20px black;
+    z-index: 2;
 }
 
 .postInfo {

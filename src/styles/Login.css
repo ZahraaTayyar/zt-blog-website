@@ -17,6 +17,7 @@
     margin: 20px;
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .loginForm label {
@@ -28,6 +29,12 @@
     background-color: white;
     border: none;
     box-shadow: 2px 2px 15px grey;
+    border-radius: 5px;
+}
+
+.loginInput:focus, .loginInput:hover {
+    background-color: rgb(255, 225, 225);
+    outline: none;
 }
 
 .loginButton {
@@ -41,9 +48,13 @@
     box-shadow: 5px 5px 15px grey;
 }
 
+.loginButton:hover {
+    background-color: rgb(243, 107, 107);
+}
+
 .loginRegisterButton {
     position: absolute;
-    top: 60px;
+    top: 90px;
     right: 20px;
     background-color: teal;
     cursor: pointer;
@@ -51,4 +62,8 @@
     padding: 10px;
     color: white;
     border-radius: 10px;
+}
+
+.loginRegisterButton:hover {
+    background-color: rgb(2, 114, 114);
 }

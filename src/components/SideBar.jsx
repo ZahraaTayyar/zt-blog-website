@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/SideBar.css";
+// import "/public/images/myPhoto.jpg"
 
 function SideBar() {
   return (
@@ -7,8 +8,8 @@ function SideBar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-          alt="woman"
+          src={process.env.PUBLIC_URL + "/images/myPhoto2.JPG"}
+          alt="me(author of this blog)"
         />
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
