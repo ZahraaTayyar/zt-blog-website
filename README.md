@@ -6,9 +6,9 @@ Check out the live [demo!](https://zt-blog-website.netlify.app/)
 
 ## Dependencies
 
-- react-router-dom
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [MongoDB Atlas](https://www.mongodb.com/atlas/database) (Database)
-- bcrypt
+- [bcrypt](https://www.npmjs.com/package/bcrypt?activeTab=readme) (Library to safely store user passwords)
 
 ## Frontend installations
 ```
@@ -23,8 +23,8 @@ npm init
 npm i express
 npm i mongoose
 npm i mongodb
-npm i dotenv (database key security)
-npm i bcrypt (For user password security)
+npm i dotenv (store your database key in .env file so no one can access the key)
+npm i bcrypt
 ```
 
 ---
