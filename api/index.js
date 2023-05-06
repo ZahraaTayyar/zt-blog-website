@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
 
 dotenv.config();
+app.use(express.json());
 
 mongoUrl = process.env.MONGO_URL;
 

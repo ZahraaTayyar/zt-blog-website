@@ -3,6 +3,13 @@ import "../styles/TopBar.css";
 import { Link } from "react-router-dom";
 
 function TopBar() {
+
+  function alertWrite() {
+    if (user === false) {
+      alert("Please register to make a blog post");
+    }
+  }
+
   let user = false;
   return (
     <div className="top">
@@ -30,7 +37,7 @@ function TopBar() {
             </Link>
           </li>
           <li className="topListItem">
-            <Link to="/write" className="link">
+            <Link onClick={alertWrite} to="/write" className="link">
               WRITE
             </Link>
           </li>
