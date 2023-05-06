@@ -6,7 +6,9 @@ Check out the live [demo!](https://zt-blog-website.netlify.app/)
 
 ### Dependencies
 
-- MongoDB (Database)
+- react-router-dom
+- [MongoDB Atlas](https://www.mongodb.com/atlas/database) (Database)
+- bcrypt
 
 ### Frontend installations
 ```
@@ -21,7 +23,7 @@ npm init
 npm i express
 npm i mongoose
 npm i mongodb
-npm i dotenv (database password security)
+npm i dotenv (database key security)
 npm i bcrypt (For user password security)
 ```
 
