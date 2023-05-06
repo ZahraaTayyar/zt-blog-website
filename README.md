@@ -4,20 +4,20 @@ This is me having a go on my own on a React tutorial, after having done the fron
 
 Check out the live [demo!](https://zt-blog-website.netlify.app/) 
 
-### Dependencies
+## Dependencies
 
 - react-router-dom
 - [MongoDB Atlas](https://www.mongodb.com/atlas/database) (Database)
 - bcrypt
 
-### Frontend installations
+## Frontend installations
 ```
 npx create-react-app . 
 npm install
 npm i react-router-dom
 ```
 
-### api installation
+## api installation
 ```
 npm init
 npm i express
