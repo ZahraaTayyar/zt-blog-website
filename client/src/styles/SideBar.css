@@ -57,6 +57,7 @@
 .sidebarListItem:hover {
     color: orangered;
     font-weight: 400;
+    scale: 1.05;
 }
 
 .sidebarSocial {
@@ -75,4 +76,5 @@
 
 .sidebarIcon:hover {
     color: orangered;
+    scale: 1.3;
 }

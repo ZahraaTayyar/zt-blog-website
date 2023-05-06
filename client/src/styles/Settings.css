@@ -1,21 +1,30 @@
 .settings {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .settingsWrapper {
     flex: 9;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
 }
 
 .settingsTitle {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .settingsUpdateTitle {
     font-size: 30px;
     margin-bottom: 20px;
+    margin-left: 2em;
     color: lightcoral;
 }
 
@@ -23,11 +32,23 @@
     color: red;
     font-size: 12px;
     cursor: pointer;
+    border: solid red 1px;
+    border-radius: 10px;
+    padding: 0.5rem
+}
+
+.settingsDeleteTitle:hover {
+    scale: 1.09;
 }
 
 .settingsForm {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    min-width: 400px;
+    max-width: 800px;
+    /* border: solid grey 2px; */
 }
 
 .settingsPP {
@@ -47,12 +68,14 @@
     display: flex;
 }
 
+.newPP:hover {
+    scale: 1.1;
+}
+
 .settingsPPIcon {
     width: 25px;
     height: 25px;
     border-radius: 5px;
-    background-color: lightcoral;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +85,6 @@
 }
 
 .newPPPlusIcon {
-    color: lightcoral;
     cursor: pointer;
 }
 
@@ -72,11 +94,16 @@
 }
 
 .settingsForm input {
-    color: gray;
     margin: 10px 0;
     height: 30px;
     border: none;
     border-bottom: 1px solid lightgray;
+    width: 80%;
+}
+
+.settingsForm input:hover, input:focus {
+    scale: 1.05;
+    outline: none;
 }
 
 .settingsSubmit {

@@ -32,9 +32,8 @@ function SideBar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
-          <i className="sidebarIcon fa-brands fa-square-facebook"></i>
-          <i className="sidebarIcon fa-brands fa-square-twitter"></i>
-          <i className="sidebarIcon fa-brands fa-square-pinterest"></i>
+          <i className="sidebarIcon fa-brands fa-square-github"></i>
+          <i className="sidebarIcon fa-brands fa-linkedin"></i>
           <i className="sidebarIcon fa-brands fa-square-instagram"></i>
         </div>
       </div>

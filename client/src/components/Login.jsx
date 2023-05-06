@@ -16,7 +16,7 @@ function Login() {
           id="email"
         />
 
-        <label htmlFor="password">Email</label>
+        <label htmlFor="password">Password</label>
         <input
           type="text"
           className="loginInput"
