@@ -24,6 +24,14 @@ router.post("/register", async (req, res) => {
 //LOGIN
 router.post("/login", async (req, res) => {
   try {
+    const user = await User.findOne({ username: req.body.username });
+    !user && res.status(400).json("wrong credentials");
+
+    const validated = await bcrypt.compare(req.body.password, user.password);
+    !validated && res.status(400).json("wrong credentials");
+
+    const { password, ...others } = user._doc; // to remove the "passoword" key from the json that is sent back to the user
+    res.status(200).json(others);
   } catch (err) {
     res.status(500).json(err);
   }
